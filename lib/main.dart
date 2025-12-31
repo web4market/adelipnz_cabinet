@@ -1,0 +1,10 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(
+  MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(title: const Text('Простое приложение')),
+      body: const Center(child: Text('Привет, Flutter!')),
+    ),
+  ),
+);
